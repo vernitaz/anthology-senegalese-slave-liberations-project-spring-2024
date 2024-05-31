@@ -1,0 +1,164 @@
+---
+# do not edit starts
+jupyter: python3
+toc: true
+execute: 
+  freeze: auto
+  echo: false
+format:
+  html:
+    code-fold: true
+    template: template/template.html
+    template-partials: 
+      - template/title-block.html
+# do not edit ends
+title: "Anthology Article Template"
+session: "Summer 2023"
+image: "data/imgs/placeholder.jpg"
+project-members:
+  - name: Dr. Jane Doe
+    designation: Faculty Director of Department
+    orcid: https://orcid.org/0000-0000-0000-0000
+  - name: John Doe
+    designation: Intern - Summer, 2023
+    orcid: https://orcid.org/0000-0000-0000-0000
+
+project-description: "The project Description contains few lines of description about the project. The description should be succint and give the reader a brief overview of what they could expect in the article. The project description can span from 4-5 lines and it is expected to capture the complete essence of the project. This article page comprises of two sub-articles related to the group. The article 1 focuses on the authoring capabilites of quarto and article 2 focuses on the computational capabilities. This article page is made using Quarto."
+
+---
+# Title of Article 1
+:::{.article-author}
+John Doe
+:::
+This article focuses on the authoring capablities of Quarto. This article is written using [Quarto's Markdown](https://quarto.org/docs/authoring/markdown-basics.html). All the quarto markdown tags are supported for authoring the article. Please refer to the Quarto's official documentation for the available markdown options. Quarto allows a variety of features such using figures, tables, diagrams, videos, embeds, code annotations and more. It allows the authors to run Python scripts and embed the output in the article.
+
+## Authoring features of Quarto
+In this section, let's see some of the authoring features of Quarto.
+
+
+### Callouts
+
+Quarto allows different types of callouts to emphasize the content.
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## Tip with Title
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+
+### Figures
+In Quarto, figures can be easily imported using the markdown syntax, given the image is stored in the codebase. You can see the example given below.
+
+![This is an example image](data/imgs/placeholder.jpg)
+
+Below is a full column image.
+
+:::{.column-page}
+![](data/imgs/placeholder.jpg)
+:::
+
+
+
+### Tables
+In Quarto, tables can be easily created using the pipe table markdown syntax. You can see the example given below.
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+
+### Diagrams
+Quarto allows natively the authors to create diagrams using Mermaid and Graphviz. Check the [official documentation](https://quarto.org/docs/authoring/diagrams.html) for more details.
+
+Below is an example of a Mermaid diagram.
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+### Videos
+In Quarto, videos can be embedded from both locally and remote sources such as YouTube and Vimeo.
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+### Appendices and Footnotes
+Quarto allows the authors to create appendices and footnotes easily.
+
+#### Appendix
+In Quarto, appendices can be created using the `.appendix` class. The appendix section is placed at the end of the document and is not included in the table of contents.
+
+##### Appendix Example {.appendix}
+Here is an example of an appendix.
+
+#### Footnote
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+    The whole paragraph can be indented, or just the first
+    line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+
+
+
+# Title of Article 2
+:::{.article-author}
+Joe Doe
+:::
+
+This article focuses on the computational capabilities of Quarto.  
+
+
+## Visualizations
+Quarto allows the users to run Python and R code directly in the page and get their output. This means that cool and interactive visualizations generated using Python or R can be rendered directly in the page. Please ensure that the essential library dependencies are installed to render the visualizations. For example, the following visualization requires `plotly` library which is installed along with the requirements. Whenever you install a new library, don't forget to add it to `requirements.txt`.
+
+Whenever an interactive visualization is added, an equivalent static image alternative should also be added for the Anthology print version. Refer to the code below.
+
+The content below will appear only in the html version.
+
+::: {.content-visible when-format="html"}
+### Interactive Plotly Chart
+For a demonstration of a Plotly chart, see @fig-example.
+
+```{python}
+#| label: fig-example
+#| fig-cap: Example Interactive Plotly Chart
+import plotly.express as px
+df = px.data.iris()
+fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species",
+                 size='petal_length', hover_data=['petal_width'])
+fig.show()
+```
+:::
+
+The content below will appear only in the pdf output but not in the html version.
+
+::: {.content-visible when-format="pdf"}
+The below content will appear only in PDF format.
+![](data/imgs/placeholder.jpg)
+:::
+
+## Observable
+Similar to Python and R code, Quarto is also capable of handling Observable. Please refer to the [official documentation](https://quarto.org/docs/computations/ojs.html) for more details.
