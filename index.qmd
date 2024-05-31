@@ -17,7 +17,7 @@ session: "Spring 2024"
 image: "data/imgs/placeholder.jpg"
 project-members:
   - name: Professor Richard Roberts
-    designation: Faculty Director of Department
+    designation: Professor of History
     orcid: https://orcid.org/0000-0000-0000-0000
   - name: Vernita Zhai
     designation: Intern - Spring, 2024
@@ -26,11 +26,16 @@ project-members:
 project-description: "The project Description contains few lines of description about the project. The description should be succint and give the reader a brief overview of what they could expect in the article. The project description can span from 4-5 lines and it is expected to capture the complete essence of the project. This article page comprises of two sub-articles related to the group. The article 1 focuses on the authoring capabilites of quarto and article 2 focuses on the computational capabilities. This article page is made using Quarto."
 
 ---
-# Title of Article 1
+# Transcribing and Visualizing Liberation Cases
 :::{.article-author}
-John Doe
+Vernita Zhai
 :::
-This article focuses on the authoring capablities of Quarto. This article is written using [Quarto's Markdown](https://quarto.org/docs/authoring/markdown-basics.html). All the quarto markdown tags are supported for authoring the article. Please refer to the Quarto's official documentation for the available markdown options. Quarto allows a variety of features such using figures, tables, diagrams, videos, embeds, code annotations and more. It allows the authors to run Python scripts and embed the output in the article.
+My Spring Quarter internship with the Senegalese Slave Liberations Project revolved around two main components: expanding the project database of slave liberation records, and enhancing the accessibility and richness of the project website through gathering and creating visual materials. 
+	For the data entry portion of my internship, I focused on transcribing liberation records from the digitized register of 1058 cases from the year 1882 onto the project's database spreadsheet, recording each liberated individual’s name, age, place of birth, parents’ names, place of liberation within colonial Senegal, date of liberation, authorizing administrator, and, in the case of minors, guardian name and occupation. Building upon the work of previous interns, I paid particular attention to the familial connections among liberated individuals and identified sibling relations as a new point of interest to be noted alongside parental relations. The main challenge posed by data entry was no doubt deciphering the sometimes illegible, ambiguous, or inconsistent 19th-century French cursive handwriting of the register, but with reference to the document’s index, previous data entry records, and initial assistance from Becca, a former intern, I quickly became comfortable navigating the script. Moreover, the inconsistencies and ambiguities in the script often turned out to be fruitful, offering valuable insights into the orthographic conventions of the time and the challenges that arise from the phonetic conversion of local Senegalese dialects into French.
+	As a central aim of the Senegalese Slave Liberation Project is to make the primary data on liberation available for scholarly and pedagogical use, another crucial component of my work this quarter involved gathering and creating visualizations to be incorporated into the project’s website. Drawing upon sources such as Giulia Paoletti’s Portrait and Place: Photography in Senegal, 1840–1960, and archives from the photographic department of the Archives nationales d'outre-mer in Aix-en-Provence, I curated a series of photographs depicting life in colonial Senegal. These images will be used to accompany and enrich the project website, which contains articles on the history of slavery in Senegal as well as broader discussions of freedom and unfreedom in a global context. In addition to sourcing photographs, I worked on converting subsets of the transcribed data into accessible and aesthetically engaging visualizations. Together, these various visual elements contribute towards the team’s ongoing efforts to enhance the availability and legibility of the Registers of Slave Liberation in Colonial Segal—a rich, sprawling, yet underused primary database—for a wider audience.
+
+
+
 
 ## Authoring features of Quarto
 In this section, let's see some of the authoring features of Quarto.
