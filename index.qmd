@@ -66,7 +66,7 @@ This is an example of a 'folded' caution callout that can be expanded by the use
 ### Figures
 In Quarto, figures can be easily imported using the markdown syntax, given the image is stored in the codebase. You can see the example given below.
 
-![This is an example image](data/imgs/placeholder.jpg)
+![Figure 1. A page from the Registers of Slave Liberation in Colonial Senegal document held at the National Archives of Senegal in Dakar, featuring liberation cases from April 1882. The Registers of Liberation consist of twenty ledgers containing records of 28,930 liberations that occurred between 1857 and 1903. While the format of data entry evolved through the years, this featured page provides a representative glimpse into the entry system employed by the colonial administration.](data/imgs/Figure 1.png)
 
 Below is a full column image.
 
