@@ -15,7 +15,7 @@ format:
 title: "Senegalese Slave Liberations Project"
 session: "Spring 2024"
 project-members:
-  - name: Professor Richard Roberts
+  - name: Richard Roberts
     designation: Professor of History, Emeritus
   - name: Vernita Zhai
     designation: Intern - Spring, 2024
