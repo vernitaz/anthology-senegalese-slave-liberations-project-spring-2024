@@ -16,16 +16,16 @@ title: "Senegalese Slave Liberations Project"
 session: "Spring 2024"
 project-members:
   - name: Professor Richard Roberts
-    designation: Professor of History
+    designation: Professor of History, Emeritus
     orcid: https://orcid.org/0000-0000-0000-0000
   - name: Vernita Zhai
     designation: Intern - Spring, 2024
     orcid: https://orcid.org/0000-0000-0000-0000
 
-project-description: "The project Description contains few lines of description about the project. The description should be succint and give the reader a brief overview of what they could expect in the article. The project description can span from 4-5 lines and it is expected to capture the complete essence of the project. This article page comprises of two sub-articles related to the group. The article 1 focuses on the authoring capabilites of quarto and article 2 focuses on the computational capabilities. This article page is made using Quarto."
+project-description: "The Senegalese Slave Liberations Project builds on the Slave Voyages Database, which has transformed the study of the trans-Atlantic slave trade by presenting the most comprehensive collection of individual slave trade voyages and the most complete set of evidence of African ports of embarkation and American ports of disembarkation. The Slave Voyages Database, however, tells us virtually nothing about slavery and the slave trade within Africa. The Senegalese Slave Liberations Project provides a crucial counterpart to the Slave Voyages project in presenting evidence of slavery and the slave trade in the Senegambian, Mauritanian, and Malian region of West Africa during the second half of the nineteenth century. Specifically, registers of liberation have survived as records of enslaved people under French colonial authority who sought their freedom. The project team is working to provide unique identifications for each case of liberation, analyze the data, and develop visualizations to support academic research and innovative pedagogy."
 
 ---
-# Transcribing and Visualizing Liberation Cases
+# Transcribing Liberation Cases
 :::{.article-author}
 Vernita Zhai
 :::
@@ -35,6 +35,10 @@ For the data entry portion of my internship, I focused on transcribing liberatio
 
 ![Figure 1. A page from the Registers of Slave Liberation in Colonial Senegal document held at the National Archives of Senegal in Dakar, featuring liberation cases from April 1882. The Registers of Liberation consist of twenty ledgers containing records of 28,930 liberations that occurred between 1857 and 1903. While the format of data entry evolved through the years, this featured page provides a representative glimpse into the entry system employed by the colonial administration.](data/imgs/Figure 1.png)
 
+# Visualizing Liberation Cases
+:::{.article-author}
+Vernita Zhai
+:::
 As a central aim of the Senegalese Slave Liberation Project is to make the primary data on liberation available for scholarly and pedagogical use, another crucial component of my work this quarter involved gathering and creating visualizations to be incorporated into the project’s website. Drawing upon sources such as Giulia Paoletti’s Portrait and Place: Photography in Senegal, 1840–1960, and archives from the photographic department of the Archives nationales d'outre-mer in Aix-en-Provence, I curated a series of photographs and maps of colonial Senegal (see Figures 2 and 3). These images will be used to accompany and enrich the project website, which contains articles on the history of slavery in Senegal as well as broader discussions of freedom and unfreedom in a global context. In addition to sourcing photographs, I worked on converting subsets of the transcribed data into accessible and aesthetically engaging visualizations. Together, these various visual elements contribute towards the team’s ongoing efforts to enhance the availability and legibility of the Registers of Slave Liberation in Colonial Segal—a rich, sprawling, yet underused primary database—for a wider audience.
 
 ![Figure 2. A panoramic photograph of Saint-Louis—the capital of the French colony of Senegal from 1673 to 1902—taken by A. Jacques and originally published in the album Souvenirs du Sénégal, 1866–1867. The photograph is featured in Portrait and Place: Photography in Senegal, 1840–1960 by Giulia Paoletti (2024), one of the secondary sources that I consulted in gathering visual materials for the project website.](data/imgs/Figure 2.png)
@@ -42,6 +46,8 @@ As a central aim of the Senegalese Slave Liberation Project is to make the prima
 ![Figure 3. Maps of French colonies in Senegal and the islands of Mayotte, Nosy-Be and Sainte-Marie-de-Madagascar (modern-day Madagascar), overlaying an indigenous landscape. A chromolithograph card published in 1890, the illustration will be added to the collection of maps currently displayed on the project website.](data/imgs/Figure 3.jpg)
 
 ![Figure 4. Figure 4. Most preferred destinations of liberated individuals in April 1882, ordered by descending popularity and color-coded by region. The desired destination of liberated individuals was a category that had been included in the first liberation registers of 1857, but omitted for many years since and not reinstated until 1882. Visualization created using Tableaux.](data/imgs/Figure 4.)
+
+
 
 
 
