@@ -21,7 +21,6 @@ project-members:
     designation: Intern - Spring, 2024
 
 project-description: "The Senegalese Slave Liberations Project builds on the Slave Voyages Database, which has transformed the study of the trans-Atlantic slave trade by presenting the most comprehensive collection of individual slave trade voyages and the most complete set of evidence of African ports of embarkation and American ports of disembarkation. The Slave Voyages Database, however, tells us virtually nothing about slavery and the slave trade within Africa. The Senegalese Slave Liberations Project provides a crucial counterpart to the Slave Voyages project in presenting evidence of slavery and the slave trade in the Senegambian, Mauritanian, and Malian region of West Africa during the second half of the nineteenth century. Specifically, registers of liberation have survived as records of enslaved people under French colonial authority who sought their freedom. The project team is working to provide unique identifications for each case of liberation, analyze the data, and develop visualizations to support academic research and innovative pedagogy."
-
 ---
 # Transcribing Liberation Cases
 My Spring Quarter internship with the Senegalese Slave Liberations Project revolved around two main components: expanding the project database of slave liberation records, and enhancing the accessibility and richness of the project website through gathering and creating visual materials. 
