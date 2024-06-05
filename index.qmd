@@ -24,8 +24,6 @@ project-description: "The Senegalese Slave Liberations Project builds on the Sla
 
 ---
 # Transcribing Liberation Cases
-:::{.article-author}
-Vernita Zhai
 :::
 My Spring Quarter internship with the Senegalese Slave Liberations Project revolved around two main components: expanding the project database of slave liberation records, and enhancing the accessibility and richness of the project website through gathering and creating visual materials. 
 
@@ -34,8 +32,6 @@ For the data entry portion of my internship, I focused on transcribing liberatio
 ![Figure 1. A page from the Registers of Slave Liberation in Colonial Senegal document held at the National Archives of Senegal in Dakar, featuring liberation cases from April 1882. The Registers of Liberation consist of twenty ledgers containing records of 28,930 liberations that occurred between 1857 and 1903. While the format of data entry evolved through the years, this featured page provides a representative glimpse into the entry system employed by the colonial administration.](data/imgs/Figure 1.png)
 
 # Visualizing Liberation Cases
-:::{.article-author}
-Vernita Zhai
 :::
 As a central aim of the Senegalese Slave Liberation Project is to make the primary data on liberation available for scholarly and pedagogical use, another crucial component of my work this quarter involved gathering and creating visualizations to be incorporated into the project’s website. Drawing upon sources such as Giulia Paoletti’s Portrait and Place: Photography in Senegal, 1840–1960, and archives from the photographic department of the Archives nationales d'outre-mer in Aix-en-Provence, I curated a series of photographs and maps of colonial Senegal (see Figures 2 and 3). These images will be used to accompany and enrich the project website, which contains articles on the history of slavery in Senegal as well as broader discussions of freedom and unfreedom in a global context. In addition to sourcing photographs, I worked on converting subsets of the transcribed data into accessible and aesthetically engaging visualizations (see Figure 4). Together, these various visual elements contribute towards the team’s ongoing efforts to enhance the availability and legibility of the Registers of Slave Liberation in Colonial Segal—a rich, sprawling, yet underused primary database—for a wider audience.
 
